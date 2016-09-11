@@ -13,7 +13,7 @@ class RadioGroup extends React.Component {
       if (child.type === RadioOption) {
         return React.cloneElement(child, {name: this.props.name, className: this.props.className})
       }else{
-        return child
+        return child //for other child elements (link google)
       }
     })
   }

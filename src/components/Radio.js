@@ -10,6 +10,7 @@ class Radio  extends React.Component {
       <RadioOption label="Warcraft 3" value="wc3" />
       <RadioOption label="Starcraft 1" value="sc1" />
       <RadioOption label="Starcraft 2" value="sc2" />
+      <a href="http://google.fr" target="_blank">google</a>
     </RadioGroup>
   )
 }
